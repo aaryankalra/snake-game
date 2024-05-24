@@ -1,0 +1,31 @@
+.main-menu-container {
+  background-color: #f2e8cf;
+  width: 30vw;
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn-container {
+  /* height: 20vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 874px) {
+  .main-menu-container {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 586px) {
+  .main-menu-container {
+    width: 80vw;
+    padding-bottom: 5rem;
+  }
+}
