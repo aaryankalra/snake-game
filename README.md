@@ -9,3 +9,12 @@
 1. HTML & CSS
 2. JavaScript
 3. ReactJS
+### To Run:
+Install Node Modules:
+```
+npm install
+```
+Run The Game:
+```
+npm run dev
+```
